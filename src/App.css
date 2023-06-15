@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
   font-family: 'Poppins', sans-serif;
@@ -78,4 +78,225 @@ h1 {
 .completed {
   color: #c5aeff;
   text-decoration: line-through;
+} */
+
+/* ----------------------------------------- */
+/*
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #8758ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+}
+
+.App {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.TodoContainer {
+    background: #1A1A40;
+    margin-top: 3rem;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.TodoForm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-input {
+    flex-grow: 1;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid #8758ff;
+    padding: 0.75rem;
+    margin-right: 1rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+.todo-input::placeholder {
+    color: #ffffff80;
+    font-weight: 300;
+}
+
+.todo-btn {
+    background: #8758ff;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.todo-btn:hover {
+    background: #7147d8;
+}
+
+.Todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2f2f5a;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Todo:hover {
+    background: #39396b;
+}
+
+.fa-trash {
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.completed {
+    color: #c5aeff;
+    text-decoration: line-through;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.App {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.TodoContainer {
+    background: #ffffff;
+    margin-top: 3rem;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.TodoForm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-input {
+    flex-grow: 1;
+    outline: none;
+    background: none;
+    border: 1px solid #1abc9c;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: .75rem;
+    color: #333;
+    font-weight: 300;
+}
+
+/* .todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #8758ff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+} */
+
+.todo-input::placeholder {
+    color: #888;
+    font-weight: 300;
+}
+
+.todo-btn {
+    background: #1abc9c;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.todo-btn:hover {
+    background: #16a085;
+}
+
+.Todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ecf0f1;
+    color: #333;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Todo:hover {
+    background: #dde4e6;
+}
+
+.fa-trash {
+    margin-left: 1rem;
+    cursor: pointer;
+    color: #16a085;
+}
+
+.completed {
+    color: #bdc3c7;
+    text-decoration: line-through;
 }
